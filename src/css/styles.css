@@ -1082,7 +1082,7 @@ body {
 }
 
 .container-social-media{
-  min-height:740px;
+  height:740px;
   padding:20px 0px 40px 0px;
 
 }
@@ -2136,9 +2136,9 @@ body {
     justify-content: space-around;
   }
 
-  .navbar .logo {
+ /*  .navbar .logo {
     width: 50%;
-  }
+  } */
 
   .list,
   .list-home {
@@ -2152,7 +2152,7 @@ body {
     display: inline-flex;
     align-items: center;
     cursor: pointer;
-    color: #0054CC;
+    color: #21362C;
     font-size: 22px;
   }
 
@@ -2333,17 +2333,21 @@ body {
     height: 250px;
   }
 
-  .top-banner .background-blue {
+  .top-banner .background-blue,.background-orange {
     padding: 30px;
   }
 
+  .background-orange{
+    margin-top: 20px;
+  }
+
   .top-banner p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
   }
 
   .top-banner h3 {
-    font-size: 30px;
+    font-size: 28px;
     line-height: 36px;
   }
 
@@ -2540,32 +2544,49 @@ body {
     font-size: 35px;
   }
 
+  .container-social-media {
+    height: 100%;
+    padding: 0;
+  }
+
+  .container-social-media .container-text{
+    position: static;
+    padding: 50px 0 10px 50px;
+  }
+
   .social-media {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
-    padding: 0 0 29px 0;
-    
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 110px;
+    padding: 0;
   }
 
-
-  .social-media img {
+  .social-media .smartPhone {
     display: flex;
-    width: 274px;
-    height: 667px;
+    width: 210px;
+    height: 512px;
     justify-content: center;
     align-items: center;
     margin-bottom: -100px;
+    top:-94px;
   }
 
   .social-media>div {
-    padding: 0 29px 0 29px;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 0 30px 0;
   }
 
   .social-media a {
-    font-size: 45px;
-    margin: 0 15px 20px 15px;
+    font-size: 16px;
+  }
+
+  .social-media a svg{
+    height: 30px; 
   }
 
   .m-bottom {
@@ -2644,7 +2665,7 @@ body {
   }
 
   .contact h2 {
-    font-size: 21px;
+    font-size: 18px;
     line-height: 30px;
     margin-top: 26px;
     margin-bottom: 20px;
@@ -2652,7 +2673,7 @@ body {
 
   .contact p,
   .contact span {
-    font-size: 17px;
+    font-size: 16px;
     line-height: 23px;
   }
 
@@ -2666,22 +2687,18 @@ body {
     gap: 50px;
   }
 
+  .suggestions .container-text{
+    position: static;
+  }
+
   .suggestions h2 {
-    font-size: 35px;
-    line-height: 47px;
-    margin-bottom: 20px;
+    width: 422px;
+    margin-bottom: 10px;
   }
 
 
   .suggestions h3 {
-    font-size: 25px;
-    line-height: 30px;
-    margin-bottom: 20px;
-  }
-
-  .suggestions form {
-    background: #0054CC;
-    width: 100%;
+    width: 297px;
   }
 
   .suggestions form .input-box {
@@ -2691,7 +2708,7 @@ body {
   }
 
   .suggestions form button {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 25px;
   }
 
@@ -2889,8 +2906,12 @@ body {
   }
 
   .footer .logo {
-    width: 443px;
-    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer .logo img{
+    width: 50%;
   }
 
   .footer .container-logo .menu-footer {
@@ -3090,19 +3111,19 @@ body {
     height: 350px;
   }
 
-  .top-banner .background-blue {
+  .top-banner .background-blue, .background-orange {
     padding: 80px;
   }
 
-  .top-banner p {
+  /* .top-banner p {
     font-size: 22px;
     line-height: 28px;
-  }
+  } */
 
-  .top-banner h3 {
+  /* .top-banner h3 {
     font-size: 40px;
     line-height: 66px;
-  }
+  } */
 
   .box-history {
     flex-direction: column;
@@ -3301,31 +3322,38 @@ body {
     font-size: 35px;
   }
 
+  .container-social-media{
+    height: 700px;
+    padding: 0px;
+  }
+  .container-social-media .container-text{
+    left: 385px;
+  }
+
   .social-media {
     width: 100%;
     height: 587px;
     padding: 0 29px;
   }
 
-  .social-media img {
+  .social-media .smartPhone {
     display: flex;
-    width: 419px;
-    height: 752px;
     justify-content: center;
     align-items: center;
     margin-bottom: -100px;
   }
 
-  .social-media>div {
-    padding: 0 29px;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+  .social-media>div{
+    flex-direction: column;
+    gap: 30px;
   }
 
   .social-media a {
-    font-size: 45px;
-    margin: 0 15px 20px 15px;
+    font-size: 16px;
+  }
+
+  .social-media a svg{
+    height: 30px; 
   }
 
   .m-bottom {
@@ -3389,16 +3417,13 @@ body {
   }
 
   .contact h2 {
-    font-size: 31px;
-    line-height: 40px;
-    margin-top: 26px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    
   }
 
   .contact p,
   .contact span {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 16px;
   }
 
   .suggestions {
@@ -3410,21 +3435,13 @@ body {
     gap: 50px;
   }
 
-  .suggestions h2 {
-    font-size: 35px;
-    line-height: 47px;
-    margin-bottom: 20px;
+  .suggestions p {
+    width: 297px;
+    margin-top: 10px;
   }
 
-  .suggestions h3 {
-    font-size: 25px;
-    line-height: 30px;
-    margin-bottom: 20px;
-  }
-
-  .suggestions form {
-    background: #0054CC;
-    width: 100%;
+  .suggestions .container-text{
+    left: 10px;
   }
 
   .suggestions form .input-box {
@@ -3434,8 +3451,7 @@ body {
   }
 
   .suggestions form button {
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 18px;
   }
 
   .suggestions form .input-box2 {
@@ -3448,6 +3464,8 @@ body {
   .localization-map .address {
     display: none;
   }
+
+
 
   .news {
     margin: 50px 0;
@@ -3572,12 +3590,21 @@ body {
     justify-content: space-around;
     align-items: flex-start;
     margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  
+  .footer  .logo {
+    display: flex;
+    height: 225px; 
+    justify-content: center;
+    align-items: center;
   }
 
-  .footer .logo {
-    margin-top: 25%;
-    align-items: center; 
+  .footer  .logo img{
+    width: 100%;
+    height: 50%;
   }
+ 
 
   .footer .container-logo .menu-footer {
     margin-top: 30px;
