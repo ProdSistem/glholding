@@ -1,0 +1,82 @@
+.top-banner-florestal{
+  background: url('../img/floresta.png');
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 0;
+  top: -184px;
+  margin-bottom: -184px;
+  height: 917px;
+  width: 100%;
+  z-index: -2;
+}
+
+.top-banner-florestal .background-green-florestal{
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: #00C057B2;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.top-banner-florestal .background-green-florestal h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #ffffff;
+    width: 405px;
+    margin-left: 251px;
+    position: relative;
+    bottom: 32%;
+}
+
+.container-florestal .content1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 865px;
+    padding-top: 70px;
+}
+
+.container-florestal .content1 h2{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    margin-bottom: 21px;
+    text-align: center;
+}
+
+.container-florestal .content1 h3{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+
+    .top-banner-florestal .background-green-florestal h2 {
+        display: block;
+        margin: 0 auto;
+        font-size: 40px;
+    }
+    .container-florestal .content1 h2{
+        font-size: 44px;
+        padding: 10px;
+    }
+
+    .container-florestal .content1 h3{
+        font-size: 30px;
+        padding: 10px;
+    }
+
+
+  }
