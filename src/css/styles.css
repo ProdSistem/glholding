@@ -96,39 +96,43 @@ body {
 }
 
 .top-text-home {
-  padding-top: 227px;
-  padding-left: 256px;
+  line-height: 117.5%;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 7.5%;
+  padding-left: 10%;
   color: #fff;
-  font-size: 99.14px;
+  font-size: 50px;
   width: 100%;
 }
 
 .top-text-home button {
-  margin-top: 57px;
-  width: 343px;
-  height: 103px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  background-color: #30358C;
+  margin-top: 20px;
+  width: 163px;
+  height: 42px;
   border-radius: 55.5px;
   border: 0;
-  color: #0055c7;
-  font-size: 40px;
+  color: #fff;
+  font-size: 16px;
   font-weight: 600;
   margin-bottom: 37px;
 }
 
-.gallery {
-  padding-left: 256px;
-}
-
 .gallery p {
-  font-size: 44px;
+  display: flex;
+  margin-top: 40px;
+  padding-left: 210px;
+  font-size: 20px;
   color: #fff;
   font-weight: 700;
-  margin: 11px;
 }
 
 .gallery .itens {
+  margin-left: -170px;
   display: flex;
-  margin-top: 44px;
+  margin-top: 40px;
   overflow-x: auto;
   scrollbar-width: none;
 }
@@ -143,19 +147,19 @@ body {
 }
 
 .gallery .itens .item:last-child {
-  margin-right: 0;
+  margin-right: 20px;
 }
 
 .gallery .itens a {
   background-size: cover;
   background-repeat: no-repeat;
-  width: 427px;
-  height: 275px;
+  width: 346px;
+  height: 223px;
   display: flex;
   color: #ffff;
-  font-size: 24px;
-  font-weight: 800;
-  padding: 33px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px;
   align-items: flex-end;
   border-radius: 11px;
   -webkit-touch-callout: none;
@@ -167,27 +171,31 @@ body {
 }
 
 .gallery .itens .img01 {
-  background: url('../img/gallery/GN-Empreendimentos.png');
+  background: url('../img/gallery/img-gn-empreendimentos.png');
 }
 
 .gallery .itens .img02 {
-  background: url('../img/gallery/GL-Florestal.png');
+  background: url('../img/gallery/img-gl-bioenergia.png');
 }
 
 .gallery .itens .img03 {
-  background: url('../img/gallery/GL-Palmar.png');
+  background: url('../img/gallery/img-dhl.png');
 }
 
 .gallery .itens .img04 {
-  background: url('../img/gallery/GL-Bioenergia.png');
+  background: url('../img/gallery/img-gl-florestal.png');
 }
 
 .gallery .itens .img05 {
-  background: url('../img/gallery/GL-Transporte.png');
+  background: url('../img/gallery/img-gl-transporte.png');
 }
 
 .gallery .itens .img06 {
-  background: url('../img/gallery/DHL.png');
+  background: url('../img/gallery/img-gl-palmar.png');
+}
+
+.gallery .itens .img07 {
+  background: url('../img/gallery/img-prodsitem.png');
 }
 
 .container-map {
