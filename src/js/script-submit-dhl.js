@@ -1,4 +1,4 @@
-const budget = async (event) => {
+const submitDHL = async (event) => {
   event.preventDefault();
   const sliderContent = document.querySelector('.input-box2 .errors');
   const name = String(event.target[0].value);
@@ -26,7 +26,7 @@ const budget = async (event) => {
     sliderContent.style.visibility = 'visible';
     sliderContent.innerHTML = `<span>Preencha todos os campos!<span/>`;
   } else {
-    await fetch('http://localhost:3004/orcamento', {
+    await fetch('http://138.36.23.135:3004/orcamento-maquinas', {
       method: 'POST',
       headers: { 'Content-type': 'application/json; charset=UTF-8' },
       body: JSON.stringify({ name, phoneNumber, email, equipment, time, companyName, comments }),

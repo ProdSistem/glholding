@@ -1,4 +1,4 @@
-const contact = async (event) => {
+const submitContato = async (event) => {
   event.preventDefault();
   const sliderContent = document.querySelector('.errors');
 
@@ -13,12 +13,10 @@ const contact = async (event) => {
     sliderContent.style.visibility = 'visible';
     sliderContent.innerHTML = `<span>Preencha todos os campos!<span/>`;
   } else {
-    await fetch('http://localhost:1337/api/messages', {
+    await fetch('http://138.36.23.135:3004/mensagem', {
       method: 'POST',
       headers: { 'Content-type': 'application/json; charset=UTF-8' },
-      body: JSON.stringify({
-        data: { name, phoneNumber, email, subject, message },
-      }),
+      body: JSON.stringify({ name, phoneNumber, email, subject, message }),
     })
       .then((response) => response.json())
       .then((data) => {
