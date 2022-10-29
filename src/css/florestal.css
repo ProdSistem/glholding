@@ -24,7 +24,7 @@
 
 .top-banner-florestal .background-green h2 {
     font-family: 'Open Sans';
-    width: 430px;
+    max-width: 430px;
     font-weight: 600;
     font-size: 30px;
     line-height: 122.68%;

@@ -23,7 +23,7 @@
 }
 
 .top-banner-transporte .background-green p{
-    width: 439px;
+    max-width: 439px;
     height: 81px;
     font-weight: 600;
     font-size: 20px;
@@ -65,23 +65,23 @@
 
 .content-trasporte-1 div{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     
 }
 
 .content-trasporte-1 > div{
-    width: 900px;
-    justify-content: space-around;
+    max-width: 811px;
+    gap: 100px;
 }
 
 .content-trasporte-1 > div > div{
-    width: 400px;
+    max-width: 355px;
     gap: 34px;
     
 }
 
 .content-trasporte-1 div p {
-    width: 254px;
+    max-width: 234px;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
@@ -108,7 +108,7 @@
 
 
 .content-trasporte-2 .background-green p{
-    width: 1043px;
+    max-width: 1043px;
     min-height: 81px;
     font-weight: 600;
     font-size: 20px;
@@ -124,7 +124,7 @@
 }
 
 .content-trasporte-3 p {
-    width: 350px;
+    max-width: 350px;
     height: 96px;
     font-weight: 400;
     font-size: 20px;
@@ -163,7 +163,7 @@
 }
 
 .container-transporte .message h2{
-    width: 251px;
+    max-width: 251px;
     font-weight: 800;
     font-size: 25px;
     line-height: 34px;
@@ -267,12 +267,16 @@
 
 @media screen and (max-width: 900px){
     .top-banner-transporte .background-green img{
-        width: 470px;
+        width: 80%;
         padding: 15px 10px 0 10px;
     }
     .top-banner-transporte .background-green p{
         font-size: 18px;
         padding: 0 15px 0 15px;
+    }
+
+    .content-trasporte-1{
+        padding: 0 10px;
     }
 
     .content-trasporte-1 h3{
