@@ -211,7 +211,7 @@ body {
   grid-area: text-map;
   color: #000000;
   font-weight: 500;
-  font-size: 55px;
+  font-size: 30px;
   margin: 61.52px 0 122px 0;
 }
 
@@ -251,20 +251,32 @@ body {
   background-position: center;
 }
 
-.btn-a,
-.btn-f,
-.btn-g {
-  background: url('../img/map/GN-Empreendimentos---DHL.png');
+.btn-a {
+  background: url('../img/map/gn.png');
 }
 
-.btn-b,
-.btn-d,
+.btn-f {
+  background: url('../img/map/DHL.png');
+}
+
+.btn-g {
+  background: url('../img/map/ProdSistem.png');
+}
+
+.btn-b {
+  background: url('../img/map/Florestal.png');
+}
+
+.btn-d {
+  background: url('../img/map/Bioenergia.png');
+}
+
 .btn-e {
-  background: url('../img/map/GL-Florestal---GL-Bioenergia---GL-Transportes.png');
+  background: url('../img/map/Transporte.png');
 }
 
 .btn-c {
-  background: url('../img/map/GN-Palmar.png');
+  background: url('../img/map/Palmar.png');
 }
 
 .services-provided .img {
