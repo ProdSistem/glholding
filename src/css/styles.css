@@ -252,31 +252,31 @@ body {
 }
 
 .btn-a {
-  background: url('../img/map/gn.png');
+  background: url('../img/gn.png');
 }
 
 .btn-f {
-  background: url('../img/map/DHL.png');
+  background: url('../img/DHL.png');
 }
 
 .btn-g {
-  background: url('../img/map/ProdSistem.png');
+  background: url('../img/ProdSistem.png');
 }
 
 .btn-b {
-  background: url('../img/map/Florestal.png');
+  background: url('../img/Florestal.png');
 }
 
 .btn-d {
-  background: url('../img/map/Bioenergia.png');
+  background: url('../img/Bioenergia.png');
 }
 
 .btn-e {
-  background: url('../img/map/Transporte.png');
+  background: url('../img/Transporte.png');
 }
 
 .btn-c {
-  background: url('../img/map/Palmar.png');
+  background: url('../img/Palmar.png');
 }
 
 .services-provided .img {
